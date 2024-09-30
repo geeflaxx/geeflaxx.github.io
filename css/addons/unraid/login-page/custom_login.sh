@@ -22,7 +22,7 @@ DISABLE_THEME="false"
 echo -e "Variables set:\\n\
 TYPE          = ${TYPE}\\n\
 THEME         = ${THEME}\\n\
-DOMAIN        = ${DOMAIN}\/theme.park\\n\
+DOMAIN        = ${DOMAIN}\\n\
 SCHEME        = ${SCHEME}\\n\
 ADD_JS        = ${ADD_JS}\\n\
 JS            = ${JS}\\n\
@@ -52,12 +52,13 @@ if [ ! -f ${LOGIN_PAGE}.backup ]; then
 fi
 
 # Use correct domain style
+# Use correct domain style
 case ${DOMAIN} in
   *"github.io"*)
   echo "Switching to github.io URL style"
-    DOMAIN="${DOMAIN}/theme.park"
+    DOMAIN="${DOMAIN}\/theme.park"
     ;;
-esac
+esac 
 
 # Adding stylesheets
 if ! grep -q ${DOMAIN} ${LOGIN_PAGE}; then
