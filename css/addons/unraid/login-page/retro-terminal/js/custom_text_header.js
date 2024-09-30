@@ -5,8 +5,8 @@
 // Needs to be inside <section id="login" class="shadow">
 // YOU MUST ESCAPE ANY SINGLE BACKSLASHES LIKE SO: \\
 
-let custom_text_header = '
-<div class="custom-text-header"> <pre> 
+let custom_text_header = "
+<div class=\"custom-text-header\"> <pre> 
 ______     _        _      _      _____                                       
 | ___ \   | |      (_)    | |    /  ___|                                      
 | |_/ /_ _| |_ _ __ _  ___| | __ \ `--.  ___  ___ _ __ ___   __ _ _ __  _ __  
@@ -16,5 +16,5 @@ ______     _        _      _      _____
                                                                               
                                                                            
                                                                  </pre> </div>
-';
+";
 document.getElementById("login").innerHTML += custom_text_header
