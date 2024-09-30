@@ -22,7 +22,7 @@ DISABLE_THEME="false"
 echo -e "Variables set:\\n\
 TYPE          = ${TYPE}\\n\
 THEME         = ${THEME}\\n\
-DOMAIN        = ${DOMAIN}\\n\
+DOMAIN        = ${DOMAIN}\/theme.park\\n\
 SCHEME        = ${SCHEME}\\n\
 ADD_JS        = ${ADD_JS}\\n\
 JS            = ${JS}\\n\
